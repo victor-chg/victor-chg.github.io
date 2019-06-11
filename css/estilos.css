@@ -1,0 +1,83 @@
+img{
+	max-width: 100%;
+}
+.redes{
+	position: fixed;
+	right: 0;
+	top: 200px;
+
+
+}
+.redes ul{
+	list-style: none;
+}
+.redes ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+
+}
+.redes ul li .fb{
+	background: #3b5998;
+}
+.redes ul li .go{
+	background: red;
+}
+.redes ul li .tw{
+	background: #00abf0;
+}
+
+.menu-bc{
+	background: #344;
+}
+.logo{
+	border-radius: 10px;
+	height: 45px;
+	width: 100px;
+	/*margin-right:800px;	*/
+
+}
+
+.mr10{
+	margin-right:2px;
+}
+.contenedor{
+	border:1px solid #E6E6E6;
+	border-radius: 5px;
+	background: #E6E6E6;
+}
+.contenido{
+	margin: 20px;
+}
+.pTop50{
+	padding-top: 100px;
+}
+.pTop30{
+	padding-top: 30px;
+}
+.verde
+{
+	color: #72AB00;
+}
+.azul{
+	color: #4474C4;
+}
+
+
+
+@media only screen and (max-width: 468px) {
+
+}
+@media only screen and (min-width: 768px) {
+	.logo{
+		margin-right: 600px;
+	}
+}
+@media only screen and (min-width: 990px) {
+	.logo{
+		margin-right: 850px;
+	}
+}
+}
